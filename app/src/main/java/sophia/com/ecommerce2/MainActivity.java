@@ -48,4 +48,14 @@ public class MainActivity extends AppCompatActivity implements OnAdapterItemClic
         startActivity(i);
 
     }
+
+    @Override
+    public void OnItemAddToCart(int position) {
+
+    }
+
+    @Override
+    public void OnItemAddToFavorites(int position) {
+
+    }
 }
